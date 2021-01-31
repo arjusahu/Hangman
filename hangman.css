@@ -1,0 +1,98 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    height:100vh;
+    width:100vw;
+    font-size: 5rem;
+    background-color: #634258;
+}
+#title{
+    text-decoration: underline;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #f2f77f;
+    text-shadow: .2rem .2rem 1rem black;
+}
+.show{
+    text-shadow: .2rem .2rem 1rem black;
+}
+#main{
+    height:60rem;
+    width:120rem;
+   margin:0px auto;
+    position:relative;
+    
+}
+#subdiv{
+    width:50rem;
+    height:50rem;
+    position:absolute;
+    left:12.3rem;
+    top:9rem;
+    
+}
+#space_words
+{
+    text-align: center;
+    width:50rem;
+    margin:1rem 1rem 1rem 10rem;
+    font-size:3rem;
+    
+}
+.inputBox{
+    text-shadow: .2rem .2rem 1rem black;
+    font-size: 5rem;
+    text-align:center;
+    height:6rem;
+    width:4rem;
+    outline-style:none;
+    border:none;
+    margin:.2rem;
+    border-bottom: .5rem solid white;
+    background-color:  #634258;
+}
+.inputBox:disabled{
+    background-color:  #634258;
+    color:#ed9f66; 
+    font-size: 5rem;
+}
+#wrong_letter
+{
+    font-size:3.5rem;
+    color: white;
+    position:absolute;
+    top:20rem;
+    left:60rem;
+    
+}
+#words{
+    font-size:2rem;
+}
+#reset{
+    background-color: #7dd87d;
+    height:4rem;
+    width:8rem;
+    margin:2rem 1rem 1rem 30rem;
+   box-shadow: .2rem .2rem 1rem black;
+   transition: .8s width, .8s height;
+}
+#reset:hover{
+    height:5rem;
+    width:9rem;
+    
+}
+#result{
+text-align: center;
+height:20rem;
+width:60rem;
+position:absolute;
+top:20rem;
+left:22rem;
+font-size:6rem;
+color:black;
+}
